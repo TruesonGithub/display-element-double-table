@@ -1,0 +1,66 @@
+{
+    "schemaVersion": "1.0.0",
+    "readme": "",
+    "modules": [
+        {
+            "kind": "javascript-module",
+            "path": "src/main.js",
+            "declarations": [
+                {
+                    "kind": "class",
+                    "description": "",
+                    "name": "DoubleTables",
+                    "members": [
+                        {
+                            "kind": "field",
+                            "name": "#productMetrics",
+                            "privacy": "private",
+                            "type": {
+                                "text": "array"
+                            },
+                            "default": "[]"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#accounts",
+                            "privacy": "private",
+                            "type": {
+                                "text": "array"
+                            },
+                            "default": "[]"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "productMetrics",
+                            "type": {
+                                "text": "Array<{ id: string, tier: string, account: string }>"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "accounts",
+                            "type": {
+                                "text": "Array<{ id: string, name: string }>"
+                            }
+                        }
+                    ],
+                    "superclass": {
+                        "name": "HTMLElement"
+                    },
+                    "tagName": "double-table",
+                    "customElement": true
+                }
+            ],
+            "exports": [
+                {
+                    "kind": "custom-element-definition",
+                    "name": "double-table",
+                    "declaration": {
+                        "name": "DoubleTables",
+                        "module": "src/main.js"
+                    }
+                }
+            ]
+        }
+    ]
+}

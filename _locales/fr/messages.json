@@ -1,0 +1,23 @@
+{
+    "productMetrics": {
+        "message": "Product metrics"
+    },
+    "@productMetrics_id": {
+        "message": "ID"
+    },
+    "@productMetrics_tier": {
+        "message": "Tier"
+    },
+    "@productMetrics_account": {
+        "message": "Account"
+    },
+    "accounts": {
+        "message": "Accounts"
+    },
+    "@accounts_id": {
+        "message": "ID"
+    },
+    "@accounts_name": {
+        "message": "Name"
+    }
+}

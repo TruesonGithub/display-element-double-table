@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <button id="addColumnBtn">Add Column</button>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Col 1</td>
+                <td>Row 1, Col 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Col 1</td>
+                <td>Row 2, Col 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        document.getElementById('addColumnBtn').addEventListener('click', function () {
+            const table = document.getElementById('myTable');
+            console.log('table', table);
+            const headerRow = table.tHead.rows[0];
+            console.log('headerRow', headerRow);
+            
+            // Add a new header cell
+            const newHeader = document.createElement('th');
+            newHeader.textContent = `Column ${headerRow.cells.length + 1}`;
+            headerRow.appendChild(newHeader);
+
+            // Add a new cell to each body row
+            const rows = table.tBodies[0].rows;
+            console.log('rows', rows);
+
+            for (let i = 0; i < rows.length; i++) {
+                const newCell = document.createElement('td');
+                const button = document.createElement('a');
+                button.textContent = 'Xin chào';
+                button.addEventListener('click', function () {
+                    console.log(`Xin chào from Row ${i + 1}, Col ${headerRow.cells.length}`);
+                });
+                newCell.appendChild(button);
+                rows[i].appendChild(newCell);
+            }
+        });
+    </script>
+</body>
+</html>
