@@ -18,6 +18,51 @@
         "message": "ID"
     },
     "@accounts_name": {
-        "message": "Name"
+        "message": "HCP Full Name"
+    },
+    "@accounts_masterAccountName": {
+        "message": "Master Account Name"
+    },
+    "@accounts_tiering": {
+        "message": "Tiering"
+    },
+    "@accounts_epidyolexAdoptionLadder": {
+        "message": "Epidyolex Adoption Ladder"
+    },
+    "@accounts_holisticMgtOfEpiPatients": {
+        "message": "Holistic Mgt of Epi Patients"
+    },
+    "@accounts_onMedicalPlan": {
+        "message": "On Medical Plan"
+    },
+    "@accounts_calls": {
+        "message": "# Calls"
+    },
+    "@accounts_emailsOpen": {
+        "message": "# Emails Open"
+    },
+    "reachTier1": {
+        "message": "Reach Tier 1"
+    },
+    "reachTier2": {
+        "message": "Reach Tier 2"
+    },
+    "reachTier3": {
+        "message": "Reach Tier 3"
+    },
+    "reachOthers": {
+        "message": "Reach Others"
+    },
+    "cpaTier1": {
+        "message": "CPA Tier 1"
+    },
+    "cpaTier2": {
+        "message": "CPA Tier 2"
+    },
+    "cpaTier3": {
+        "message": "CPA Tier 3"
+    },
+    "cpaOthers": {
+        "message": "CPA Others"
     }
 }

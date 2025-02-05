@@ -31,6 +31,78 @@
                         },
                         {
                             "kind": "field",
+                            "name": "#reachTier1",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#reachTier2",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#reachTier3",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#reachOthers",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#cpaTier1",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#cpaTier2",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#cpaTier3",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
+                            "name": "#cpaOthers",
+                            "privacy": "private",
+                            "type": {
+                                "text": "number"
+                            },
+                            "default": "0"
+                        },
+                        {
+                            "kind": "field",
                             "name": "productMetrics",
                             "type": {
                                 "text": "Array<{ id: string, tier: string, account: string }>"
@@ -40,7 +112,63 @@
                             "kind": "field",
                             "name": "accounts",
                             "type": {
-                                "text": "Array<{ id: string, name: string }>"
+                                "text": "Array<{ id: string, name: string, masterAccountName: string, tiering: string, epidyolexAdoptionLadder: string, holisticMgtOfEpiPatients: string, onMedicalPlan: string, calls: number, emailsOpen: number }>"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "reachTier1",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "reachTier2",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "reachTier3",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "reachOthers",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "cpaTier1",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "cpaTier2",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "cpaTier3",
+                            "type": {
+                                "text": "number"
+                            }
+                        },
+                        {
+                            "kind": "field",
+                            "name": "cpaOthers",
+                            "type": {
+                                "text": "number"
                             }
                         }
                     ],
