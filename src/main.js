@@ -184,7 +184,7 @@ class DoubleTables extends HTMLElement {
 
         // Add table headers
         const headerRow = document.createElement('tr');
-        ['Id', 'HCP Full Name', 'Master Account Name', 'Tiering', 'Epidyolex Adoption Ladder', 'Holistic Mgt of Epi Patients', 'On Medical Plan', '# Calls', '# Emails Open'].forEach(headerText => {
+        ['Id', 'HCP Full Name', 'Master Account Name', 'On Medical Plan', '# Calls'].forEach(headerText => {
             const headerCell = document.createElement('th');
             headerCell.textContent = headerText;
             headerRow.appendChild(headerCell);
@@ -195,7 +195,7 @@ class DoubleTables extends HTMLElement {
         hcpTable.appendChild(headerRow);
 
         // Add table rows
-        filteredAccounts.forEach(({ id, name, masterAccountName, tiering, epidyolexAdoptionLadder, holisticMgtOfEpiPatients, onMedicalPlan, calls, emailsOpen }) => {
+        filteredAccounts.forEach(({ id, name, masterAccountName, onMedicalPlan, calls }) => {
             const row = document.createElement('tr');
 
             const idCell = document.createElement('td');
@@ -210,17 +210,17 @@ class DoubleTables extends HTMLElement {
             masterAccountNameCell.textContent = masterAccountName;
             row.appendChild(masterAccountNameCell);
 
-            const tieringCell = document.createElement('td');
-            tieringCell.textContent = tiering;
-            row.appendChild(tieringCell);
+            // const tieringCell = document.createElement('td');
+            // tieringCell.textContent = tiering;
+            // row.appendChild(tieringCell);
 
-            const epidyolexAdoptionLadderCell = document.createElement('td');
-            epidyolexAdoptionLadderCell.textContent = epidyolexAdoptionLadder;
-            row.appendChild(epidyolexAdoptionLadderCell);
+            // const epidyolexAdoptionLadderCell = document.createElement('td');
+            // epidyolexAdoptionLadderCell.textContent = epidyolexAdoptionLadder;
+            // row.appendChild(epidyolexAdoptionLadderCell);
 
-            const holisticMgtOfEpiPatientsCell = document.createElement('td');
-            holisticMgtOfEpiPatientsCell.textContent = holisticMgtOfEpiPatients;
-            row.appendChild(holisticMgtOfEpiPatientsCell);
+            // const holisticMgtOfEpiPatientsCell = document.createElement('td');
+            // holisticMgtOfEpiPatientsCell.textContent = holisticMgtOfEpiPatients;
+            // row.appendChild(holisticMgtOfEpiPatientsCell);
 
             const onMedicalPlanCell = document.createElement('td');
             onMedicalPlanCell.textContent = onMedicalPlan;
@@ -230,9 +230,9 @@ class DoubleTables extends HTMLElement {
             callsCell.textContent = calls;
             row.appendChild(callsCell);
 
-            const emailsOpenCell = document.createElement('td');
-            emailsOpenCell.textContent = emailsOpen;
-            row.appendChild(emailsOpenCell);
+            // const emailsOpenCell = document.createElement('td');
+            // emailsOpenCell.textContent = emailsOpen;
+            // row.appendChild(emailsOpenCell);
 
             hcpTable.appendChild(row);
         });

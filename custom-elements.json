@@ -112,7 +112,7 @@
                             "kind": "field",
                             "name": "accounts",
                             "type": {
-                                "text": "Array<{ id: string, name: string, masterAccountName: string, tiering: string, epidyolexAdoptionLadder: string, holisticMgtOfEpiPatients: string, onMedicalPlan: string, calls: number, emailsOpen: number }>"
+                                "text": "Array<{ id: string, name: string, masterAccountName: string, onMedicalPlan: string, calls: number }>"
                             }
                         },
                         {

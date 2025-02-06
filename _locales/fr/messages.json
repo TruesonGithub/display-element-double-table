@@ -23,23 +23,11 @@
     "@accounts_masterAccountName": {
         "message": "Master Account Name"
     },
-    "@accounts_tiering": {
-        "message": "Tiering"
-    },
-    "@accounts_epidyolexAdoptionLadder": {
-        "message": "Epidyolex Adoption Ladder"
-    },
-    "@accounts_holisticMgtOfEpiPatients": {
-        "message": "Holistic Mgt of Epi Patients"
-    },
     "@accounts_onMedicalPlan": {
         "message": "On Medical Plan"
     },
     "@accounts_calls": {
         "message": "# Calls"
-    },
-    "@accounts_emailsOpen": {
-        "message": "# Emails Open"
     },
     "reachTier1": {
         "message": "Reach Tier 1"
