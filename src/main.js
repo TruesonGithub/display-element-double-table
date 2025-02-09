@@ -38,14 +38,14 @@ class DoubleTables extends HTMLElement {
     #productMetrics = [];
     #accounts = [];
     #currentType = null;
-    #reachTier1 = 0;
-    #reachTier2 = 0;
-    #reachTier3 = 0;
-    #reachOthers = 0;
-    #cpaTier1 = 0;
-    #cpaTier2 = 0;
-    #cpaTier3 = 0;
-    #cpaOthers = 0;
+    #reachTier1 = '';
+    #reachTier2 = '';
+    #reachTier3 = '';
+    #reachOthers = '';
+    #cpaTier1 = '';
+    #cpaTier2 = '';
+    #cpaTier3 = '';
+    #cpaOthers = '';
 
     constructor() {
         super();
@@ -127,7 +127,7 @@ class DoubleTables extends HTMLElement {
                     cell.appendChild(button);
                 } else {
                     const text = document.createElement('p');
-                    text.textContent = `${value}%`;
+                    text.textContent = `${value}`;
                     cell.appendChild(text);
                 }
                 row.appendChild(cell);

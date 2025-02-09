@@ -1,5 +1,5 @@
 {
-    "schemaVersion": "1.0.0",
+    "schemaVersion": "1.''.''",
     "readme": "",
     "modules": [
         {
@@ -34,72 +34,72 @@
                             "name": "#reachTier1",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#reachTier2",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#reachTier3",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#reachOthers",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#cpaTier1",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#cpaTier2",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#cpaTier3",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
                             "name": "#cpaOthers",
                             "privacy": "private",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             },
-                            "default": "0"
+                            "default": "''"
                         },
                         {
                             "kind": "field",
@@ -119,56 +119,56 @@
                             "kind": "field",
                             "name": "reachTier1",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "reachTier2",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "reachTier3",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "reachOthers",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "cpaTier1",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "cpaTier2",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "cpaTier3",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         },
                         {
                             "kind": "field",
                             "name": "cpaOthers",
                             "type": {
-                                "text": "number"
+                                "text": "string"
                             }
                         }
                     ],
